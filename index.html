@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Currency Converter</h1>
+        <i class="fa-solid fa-moon" id="icon"></i>
+      </div>
+      <form class="form">
+        <div class="amount">
+          <label>Enter Amount</label>
+          <input type="number" placeholder="Enter amount" id="userInput" />
+        </div>
+        <div class="dropDown">
+          <div class="from">
+            <p>From</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/US/shiny/64.png" id="flag" />
+              <select name="" id="">
+                <option value="USD">USD</option>
+              </select>
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          <div class="to">
+            <p>To</p>
+            <div class="select-container">
+              <img src="https://flagsapi.com/BD/shiny/64.png" id="flag" />
+              <select name="" id="">
+                <option value="BDT">BDT</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="message">1 USD = 100 BDT</div>
+        <button id="xngBtn" type="submit">Exchange</button>
+      </form>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/74b658eae7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
