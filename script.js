@@ -227,6 +227,5 @@ button.addEventListener("click", (e) => {
           amountValue * exchangeRate
         ).toFixed(2)} ${tocntry.value}`;
       }
-      console.log(data.result.rate);
     });
 });
